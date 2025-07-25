@@ -1,0 +1,40 @@
+# Archivos específicos del proyecto
+*.log
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de configuración sensibles
+.env
+*.key
+*.pem
+
+# Archivos de Firebase sensibles
+firebase-adminsdk*.json
+ServiceKey-*.json
+
+# Directorios de dependencias (manejados por subdirectorios)
+node_modules/
+venv/
+__pycache__/
+
+# Backups
+*.bak
+*.backup
+
+# Documentación generada
+docs/_build/

@@ -1,0 +1,16 @@
+# Web Framework y Servidor
+fastapi==0.115.6              # Framework web moderno y rápido
+uvicorn[standard]==0.35.0     # Servidor ASGI para FastAPI
+
+# Comunicación en Tiempo Real
+python-socketio==5.13.0       # Socket.IO para comunicación bidireccional
+
+# Validación y Datos
+pydantic==2.10.6              # Validación de datos y serialización
+python-multipart==0.0.20      # Manejo de formularios multipart
+
+# Firebase y Cloud Services
+firebase-admin==6.6.0         # SDK de Firebase Admin (Firestore + FCM)
+
+# Configuración
+python-dotenv==1.0.1          # Carga de variables de entorno desde .env
